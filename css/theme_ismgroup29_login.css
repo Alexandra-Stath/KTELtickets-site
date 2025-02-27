@@ -1,0 +1,117 @@
+/* Base styles */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 70px; /* Space for the fixed navbar */
+    margin-bottom: 60px; /* Margin bottom for footer height */
+}
+
+/* Footer styles */
+footer {
+    color: #fff;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Fixed height of the footer */
+}
+
+/* Theme-specific styles */
+.theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+    margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+    width: auto;
+}
+
+.alert.alert-info {
+    margin-top: 30px;
+
+}
+
+/* Form styles */
+.form-horizontal {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styling */
+#loginForm h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+/* Align form labels and inputs in a single line */
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+.form-group label {
+    margin-bottom: 0;
+    width: 40%;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+/* Input field styling */
+.form-group .form-control {
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.buttons [type=submit] {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.buttons a:hover {
+    background-color: hsl(39, 98%, 20%);
+}
+
+.btn-2 {
+    color: rgb(250, 117, 1);
+    text-decoration:underline;
+}
+
+.exception-message {
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+}
