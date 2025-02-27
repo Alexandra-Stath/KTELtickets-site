@@ -17,6 +17,6 @@ KTELTICKETS is a web-based bus ticket booking system built using **Java, JSP, HT
 - **E-Ticket Generation** – Downloadable and printable e-tickets after successful booking.
 
 ## 🌐 Live Demo
-You can access the full KTELTICKETS site at: **[http://ism.dmst.aueb.gr/ismgroup29/login.jsp](http://ism.dmst.aueb.gr/ismgroup29/login.jsp)**
+You can access the full KTELtickets site at: **[http://ism.dmst.aueb.gr/ismgroup29/login.jsp](http://ism.dmst.aueb.gr/ismgroup29/login.jsp)**
 
 Click the link above to explore all features in action!
